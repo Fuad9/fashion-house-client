@@ -1,10 +1,10 @@
 import "./App.css";
+import Routes from "./components/routes/Routes";
 
 function App() {
    return (
       <div className="App">
-         <h3>Hello world!</h3>
-         <h4>Here starts our app</h4>
+         <Routes />
       </div>
    );
 }
